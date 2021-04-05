@@ -1,12 +1,11 @@
-package Array;/*
+package linkedlist;
+/*
  * @lc app=leetcode.cn id=2 lang=java
  *
  * [2] 两数相加
  */
 
 // @lc code=start
-
-import Entity.ListNode;
 
 /**
  * Definition for singly-linked list.
@@ -18,10 +17,10 @@ import Entity.ListNode;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class AddTwoNumbers {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        return null;
-    }
+class AddTwoNumbersBAK {
+//    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+//        return null;
+//    }
 }
 // @lc code=end
 
