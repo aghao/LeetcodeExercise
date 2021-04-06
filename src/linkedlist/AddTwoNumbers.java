@@ -8,8 +8,12 @@ package linkedlist;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
+ *
+ * 时间复杂度：O(max(m,n)) m,n :ListNode
+ * 空间复杂度：O(1)
  */
 public class AddTwoNumbers {
+
     static class ListNode {
         int val;
         ListNode next;
@@ -35,7 +39,8 @@ public class AddTwoNumbers {
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        // 也可以使用dummyHead来指示链表头结点
+        // 也可以使用dummeyHead = new ListNode(0)指向链表头节点前，即虚拟头结点
+        // 返回则为dummyHead.next
         ListNode head = null, tail = null;
         int carry = 0;
         while (l1 != null || l2 != null) {
