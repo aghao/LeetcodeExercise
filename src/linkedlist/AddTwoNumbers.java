@@ -38,7 +38,7 @@ public class AddTwoNumbers {
         }
     }
 
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    private ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // 也可以使用dummeyHead = new ListNode(0)指向链表头节点前，即虚拟头结点
         // 返回则为dummyHead.next
         ListNode head = null, tail = null;
