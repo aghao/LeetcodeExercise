@@ -12,6 +12,9 @@ package array;
  * Input: nums = [1,1,2]
  * Output: 2, nums = [1,2]
  * Explanation: Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the returned length.
+ *
+ * 时间复杂度：O(n) 假设数组长度n
+ * 空间复杂度：O(1)
  */
 public class RemoveDuplicates {
 
