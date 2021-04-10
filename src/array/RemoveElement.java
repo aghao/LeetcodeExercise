@@ -2,6 +2,8 @@ package array;
 
 /**
  * [27] 移除元素
+ * @author: Aghao
+ *
  * Given an array nums and a value val, remove all instances of that value in-place and return the new length.
  * Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
  * The order of elements can be changed. It doesn't matter what you leave beyond the new length.
@@ -12,6 +14,10 @@ package array;
  * Output: 2, nums = [2,2]
  * Explanation: Your function should return length = 2, with the first two elements of nums being 2.
  * It doesn't matter what you leave beyond the returned length. For example if you return 2 with nums = [2,2,3,3] or nums = [2,2,0,0], your answer will be accepted.
+ *
+ * (二分法)
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
  */
 
 
@@ -22,6 +28,7 @@ public class RemoveElement {
         int val = 2;
         int len = new RemoveElement().removeElement(nums, val);
         System.out.println(len);
+        // 输出不考虑数组后的长度
         for (int i = 0; i < len; i++) {
             System.out.print(nums[i]);
         }

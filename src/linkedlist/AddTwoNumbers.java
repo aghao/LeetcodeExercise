@@ -2,6 +2,8 @@ package linkedlist;
 
 /**
  * [2] 两数相加
+ * @author: Aghao
+ *
  * Definition for singly-linked list
  * public class ListNode {
  *     int val;
